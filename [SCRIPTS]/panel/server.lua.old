@@ -1,0 +1,322 @@
+
+infom = createMarker( 298.705078125, 85.462890625, 1029.3762207031,"cylinder",5,255,255,0,0)
+setElementInterior(infom,3)
+setElementDimension(infom,2)
+ 
+function info(markerHit,matchingDimension) 
+	if matchingDimension	then
+   		--outputChatBox("Press 'M' then right click to interact with peds.",markerHit,255,255,255)
+		triggerClientEvent(markerHit,"aoutput",markerHit,"Info","Press 'M' then right click to interact with peds")
+	end
+	
+end
+addEventHandler("onMarkerHit",infom,info)
+
+local mysql = exports.mysql
+function topHandler ( type )
+	local text = " "
+	local accounts = { }
+	local x
+	if type == 2 then
+		text = " Top 10 Bank Balance \n"
+		local result = mysql:query("SELECT charactername,bankmoney FROM characters WHERE charactername <> 'Mohamad_Metz' ORDER BY bankmoney DESC LIMIT 10")
+		if (mysql:num_rows(result)>0) then
+		
+			local i = 1
+
+			while true do
+				local row = mysql:fetch_assoc(result)
+				if not row then break end
+				accounts[i] = { }
+				accounts[i][1] = tonumber(row["bankmoney"])
+				accounts[i][2] = row["charactername"]
+				i = i + 1
+			end
+		end
+	elseif type == 5 then
+		text = " Top 10 Hours Played \n"
+		local result = mysql:query("SELECT charactername,hoursplayed FROM characters ORDER BY hoursplayed DESC LIMIT 10")
+		if (mysql:num_rows(result)>0) then
+		
+			local i = 1
+
+			while true do
+				local row = mysql:fetch_assoc(result)
+				if not row then break end
+				accounts[i] = { }
+				accounts[i][1] = tonumber(row["hoursplayed"])
+				accounts[i][2] = row["charactername"]
+				i = i + 1
+			end
+		end
+ 	elseif type == 3 then
+		text = " Top 10 Characters Deaths \n"
+		local result = mysql:query("SELECT charactername,deaths FROM characters ORDER BY deaths DESC LIMIT 10")
+		if (mysql:num_rows(result)>0) then
+		
+			local i = 1
+
+			while true do
+				local row = mysql:fetch_assoc(result)
+				if not row then break end
+				accounts[i] = { }
+				accounts[i][1] = tonumber(row["deaths"])
+				accounts[i][2] = row["charactername"]
+				i = i + 1
+			end
+		end
+	 elseif type == 7 then
+		text = " Top 10 Admin report handlers \n"
+		local result = mysql:query("SELECT username,adminreports FROM accounts ORDER BY adminreports DESC LIMIT 10")
+		if (mysql:num_rows(result)>0) then
+		
+			local i = 1
+
+			while true do
+				local row = mysql:fetch_assoc(result)
+				if not row then break end
+				accounts[i] = { }
+				accounts[i][1] = tonumber(row["adminreports"])
+				accounts[i][2] = row["username"]
+				i = i + 1
+			end
+		end
+	elseif type == 9 then
+		text = " Top 10 High scores in snake game\n(Admins are excluded from the top list) \n"
+		local result = mysql:query("SELECT username,highsnake FROM accounts WHERE admin = 0 ORDER BY highsnake DESC LIMIT 10")
+		if (mysql:num_rows(result)>0) then
+		
+			local i = 1
+
+			while true do
+				local row = mysql:fetch_assoc(result)
+				if not row then break end
+				accounts[i] = { }
+				accounts[i][1] = tonumber(row["highsnake"])
+				accounts[i][2] = row["username"]
+				i = i + 1
+			end
+		end
+	elseif type == 10 then
+		text = " Top 10 Total scores in snake game\n(Admins should not jail them to get in tops) \n"
+		local result = mysql:query("SELECT username,totalsnake FROM accounts ORDER BY totalsnake DESC LIMIT 10")
+		if (mysql:num_rows(result)>0) then
+		
+			local i = 1
+
+			while true do
+				local row = mysql:fetch_assoc(result)
+				if not row then break end
+				accounts[i] = { }
+				accounts[i][1] = tonumber(row["totalsnake"])
+				accounts[i][2] = row["username"]
+				i = i + 1
+			end
+		end
+	elseif type==8 then
+		triggerClientEvent(source,"carlistgui",source)
+		x=2
+	end
+	for key, value in pairs(accounts) do
+		local charname = string.gsub(tostring(accounts[key][2]), "_", " ")
+		local bank = accounts[key][1]
+		if type ==2 then
+			text = text.." \n "..key.. ". "..charname.."      $"..bank.. ""
+		else
+			text = text.." \n "..key.. ". "..charname.."      "..bank.. ""
+		end
+	end
+	triggerClientEvent(source,"topsclient",source,text,x)
+	
+end
+addEvent( "tops", true )
+addEventHandler( "tops", getRootElement(), topHandler )
+
+function stats()
+	local charname = getPlayerName(source)
+	local ip = getPlayerIP(source)
+	local serial = getPlayerSerial(source)
+
+	local text = " Name "..charname.." \n IP :"..ip.." \n Serial: "..serial 
+	local noofjails = mysql:query_fetch_assoc("SELECT COUNT(*) as 'numbr'  FROM adminhistory WHERE admin = '"..mysql:escape_string(getElementData(source,"gameaccountid")).."' AND action = 0")
+	local noofkicks = mysql:query_fetch_assoc("SELECT COUNT(*) as 'numbr'  FROM adminhistory WHERE admin = '"..mysql:escape_string(getElementData(source,"gameaccountid")).."' AND action = 1")
+	local noofbans = mysql:query_fetch_assoc("SELECT COUNT(*) as 'numbr'  FROM adminhistory WHERE admin = '"..mysql:escape_string(getElementData(source,"gameaccountid")).."' AND action = 2")
+	local noofwarns = mysql:query_fetch_assoc("SELECT COUNT(*) as numbr  FROM adminhistory WHERE admin = '"..mysql:escape_string(getElementData(source,"gameaccountid")).."' AND action = 4")
+	local noofjails = tonumber(noofjails["numbr"]) or 0
+	local noofkicks = tonumber(noofkicks["numbr"]) or 0
+	local noofbans = tonumber(noofbans["numbr"]) or 0
+	local noofwarns = tonumber(noofwarns["numbr"]) or 0
+	local text = text .."\n ~~~ Admin stats ~~~\nJails: "..noofjails.."\nKicks: "..noofkicks.."\nBans: "..noofbans.."\nWarns: "..noofwarns.."\nReports: "..tonumber(getElementData(source, "adminreports"))
+	triggerClientEvent(source,"topsclient",source,text)
+	
+end
+addEvent( "stats", true )
+addEventHandler( "stats", getRootElement(), stats )
+function showstats(source,command)
+	if (exports.global:isPlayerAdmin(source)) then 
+		local noofjails = mysql:query_fetch_assoc("SELECT COUNT(*) as 'numbr'  FROM adminhistory WHERE admin = '"..mysql:escape_string(getElementData(source,"gameaccountid")).."' AND action = 0")
+		local noofkicks = mysql:query_fetch_assoc("SELECT COUNT(*) as 'numbr'  FROM adminhistory WHERE admin = '"..mysql:escape_string(getElementData(source,"gameaccountid")).."' AND action = 1")
+		local noofbans = mysql:query_fetch_assoc("SELECT COUNT(*) as 'numbr'  FROM adminhistory WHERE admin = '"..mysql:escape_string(getElementData(source,"gameaccountid")).."' AND action = 2")
+		local noofwarns = mysql:query_fetch_assoc("SELECT COUNT(*) as numbr  FROM adminhistory WHERE admin = '"..mysql:escape_string(getElementData(source,"gameaccountid")).."' AND action = 4")
+		local noofjails = tonumber(noofjails["numbr"]) or 0
+		local noofkicks = tonumber(noofkicks["numbr"]) or 0
+		local noofbans = tonumber(noofbans["numbr"]) or 0
+		local noofwarns = tonumber(noofwarns["numbr"]) or 0
+		outputChatBox(getPlayerName(source).." displayed his admin stats: ",getRootElement(),255,204,0)
+		outputChatBox("Jails: "..noofjails..", Kicks: "..noofkicks..", Bans: "..noofbans..", Warns: "..noofwarns..", Reports: "..tonumber(getElementData(source, "adminreports"))..".",getRootElement(),255,204,0)
+	end
+end
+addCommandHandler("showstats",showstats)
+--[[function newuser(player)
+	local result = mysql:query("SELECT username FROM accounts DESC LIMIT 10")
+	outputChatBox("*"..username..".",player,255,0,0)
+end
+
+addCommandHandler( "users",newuser)]]
+function commit(player)
+
+	name = getPlayerName(player)
+	killPlayer(player, player)
+	outputChatBox(name.." commited suicide.",getRootElement(),255,204,0)
+end
+
+addCommandHandler("kill", commit)
+addEvent( "killp", true )
+addEventHandler( "killp", getRootElement(), commit )
+
+local catext=""
+function ca(admin,command,player,type)
+	if not ( exports.global:isPlayerLeadAdmin ( admin ) )  then
+		return
+		outputChatBox("You can't use this command",admin,255,204,0)
+	end
+	local tplayer, targetPlayerName = exports.global:findPlayerByPartialNick(admin, player)
+	if (tplayer) then
+		serial = getPlayerSerial(tplayer)
+	
+		
+		local result = mysql:query("SELECT username,id FROM accounts WHERE mtaserial = '"..mysql:escape_string(serial).."'")
+		if (mysql:num_rows(result)>0) then
+			while true do
+				local row = mysql:fetch_assoc(result)
+				if not row then break end
+				local id = tonumber(row["id"])
+				local account = row["username"]
+				catext= account..": "
+				local resul = mysql:query("SELECT charactername FROM characters WHERE account = "..mysql:escape_string(id))
+				if (mysql:num_rows(resul)>0) then
+					while true do
+						local row = mysql:fetch_assoc(resul)
+						if not row then break end
+						local charn = tonumber(row["id"])
+						local charname = row["charactername"]
+						catext= catext..""..charname..", "
+					end
+				end
+			if tonumber(type) == 1 then
+				
+				outputChatBox(catext,getRootElement(),255,204,0)
+			else
+				outputChatBox(catext,admin,255,204,0)
+			end
+			
+				
+			end
+		end
+	end
+	if tonumber(type) == 1 then
+					outputChatBox(getPlayerName(admin).." displayed "..targetPlayerName.."'s acccounts and characters.",getRootElement(),255,50,0)
+			end
+end
+addCommandHandler("caa", ca)
+function cao(thePlayer,commandname,type,...)
+	if  ( exports.global:isPlayerLeadAdmin ( thePlayer ) )  then
+		if not (...) then
+			outputChatBox("SYNTAX: /" .. commandName .. " [Full Player Name]", thePlayer, 255, 194, 14)
+		else
+			local accountid
+			local targetPlayer = table.concat({...}, "_")
+			local result = mysql:query("SELECT account FROM characters WHERE charactername='" .. mysql:escape_string(tostring(targetPlayer)) .. "'")
+			if (mysql:num_rows(result)>1) then
+				outputChatBox("Too many results - Please enter a more exact name.", thePlayer, 255, 0, 0)
+			elseif (mysql:num_rows(result)==0) then
+				outputChatBox("Player does not exist.", thePlayer, 255, 0, 0)
+			else
+				while true do
+					local row = mysql:fetch_assoc(result)
+					if not row then break end
+					accountid = tonumber(row["account"])
+				end
+			
+				local serial
+				local res = mysql:query("SELECT mtaserial FROM accounts WHERE id = '" .. mysql:escape_string(accountid) .. "'")
+				if (mysql:num_rows(res)>0) then
+					while true do
+						local row = mysql:fetch_assoc(res)
+						if not row then break end
+						serial = row["mtaserial"]
+					end
+				end
+				outputChatBox(serial,thePlayer,22,222,222)
+			
+				local re = mysql:query("SELECT username,id FROM accounts WHERE mtaserial = '"..mysql:escape_string(serial).."'")
+				if (mysql:num_rows(re)>0) then
+					while true do
+						local row = mysql:fetch_assoc(re)
+						if not row then break end
+						local id = tonumber(row["id"])
+						local account = row["username"]
+						catext= account..": "
+						local resul = mysql:query("SELECT charactername FROM characters WHERE account = "..mysql:escape_string(id))
+						if (mysql:num_rows(resul)>0) then
+							while true do
+								local row = mysql:fetch_assoc(resul)
+								if not row then break end
+								local charn = tonumber(row["id"])
+								local charname = row["charactername"]
+								catext= catext..""..charname..", "
+							end
+						end
+						if tonumber(type) == 1 then
+					
+							outputChatBox(catext,getRootElement(),255,204,0)
+						else	
+							outputChatBox(catext,thePlayer,22,222,222)
+						end
+						
+					end
+					
+				end
+				if tonumber(type) == 1 then
+					outputChatBox(getPlayerName(thePlayer).." displayed "..targetPlayer.."s acccounts and characters.",getRootElement(),255,50,0)
+				end
+			end
+		end
+	end
+end
+addCommandHandler("cao",cao)
+function helpann(player)
+	if (exports.global:isPlayerAdmin(player)) then
+	outputChatBox("Admin "..getPlayerName(player).." is available for help,/report.",getRootElement(),0,255,0)
+	end
+end
+addCommandHandler("ha",helpann)
+function scriptWave ( thePlayer, command, height )
+	if (exports.global:isPlayerAdmin(thePlayer)) then
+		if height then 
+			local oldHeight = getWaveHeight()
+			height = tonumber ( height )
+			success = setWaveHeight ( height )
+			if ( success ) then
+				outputChatBox ( "You set wave height to "..height,thePlayer,2,255,2 )
+				exports.global:sendMessageToAdmins("AdmCmd: "..getPlayerName(thePlayer).." set wave height to "..height)
+				exports.logs:logMessage(getPlayerName(thePlayer):gsub("_", " ") .. " set wave height to "..height, 22)
+			else
+				outputChatBox ( "Invalid number.",thePlayer,255,2,2 )
+			end
+		else
+			outputChatBox("/setwave height",thePlayer,255,2,2)
+		end
+	end
+end
+addCommandHandler ( "setwave", scriptWave )

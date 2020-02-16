@@ -1,0 +1,13 @@
+<meta>
+<info author="#XeeTs" type="script" description="Resource for Play Games" />
+<script src="client.luac" type="client"/>
+<script src="server.luac" type="server" />
+<file src="gfx/font_EditBox.ttf" />
+<file src="gfx/font_Text.ttf" />
+<file src="gfx/black.png" />
+<file src="gfx/pass.png" />
+<file src="gfx/user.png" />
+<file src="som/sound.mp3" />
+<file src="som/b1.mp3" />
+<file src="som/b2.mp3" />
+</meta>

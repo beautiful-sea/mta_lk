@@ -1,0 +1,6 @@
+<meta>
+<info name='Uno Fire Economy Edit' type='misc' />
+<script src='script.lua' type='client' />
+<file src='merit.txd' />
+<file src='merit.dff' />
+</meta>

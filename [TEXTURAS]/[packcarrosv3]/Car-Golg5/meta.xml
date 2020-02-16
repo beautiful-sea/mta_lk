@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<meta>
+     <info author="FiatToro" type="misc" name="FiatToro" description="FiatToro" />
+     <script src="replace.lua" type="client" />
+     <file src="479.txd" />
+     <file src="479.dff" />
+</meta>

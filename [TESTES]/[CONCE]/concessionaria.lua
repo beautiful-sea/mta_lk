@@ -1,0 +1,6 @@
+col = engineLoadCOL("conse.col")
+engineReplaceCOL (col , 1369)
+txd = engineLoadTXD("conse.txd")
+engineImportTXD(txd , 1369) 
+dff = engineLoadDFF("conse.dff" , 1369)
+engineReplaceModel(dff , 1369)

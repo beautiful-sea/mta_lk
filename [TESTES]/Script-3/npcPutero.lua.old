@@ -1,0 +1,16 @@
+striper1 = createPed(178,1222.09375,-6.330078125,1000.328125,86.449981689453)
+striper2 = createPed(196,1215.0390625,-6.8671875,1000.328125,272.66009521484)
+setPedAnimation(striper1,"LAPDAN3","LAPDAN_D",0,true)
+setElementInterior(striper1,2)
+setPedAnimation(striper2,"LAPDAN3","LAPDAN_D",0,true)
+setElementInterior(striper2,2)
+atendente = createPed(11,1215.279296875,-15.2666015625,1000.921,358.45364379883)
+setElementInterior ( atendente, 2 )
+setPedFrozen ( atendente, true )
+
+
+
+function cancelarPedDano() 
+    cancelEvent() 
+end 
+addEventHandler("onClientPedDamage", atendente, cancelarPedDano)  

@@ -1,0 +1,71 @@
+
+function InvisibleCommand (thePlayer, command)
+        if ( hasObjectPermissionTo ( thePlayer, "command.kick", true ) ) then
+	    setElementAlpha (thePlayer, 0)
+        setPlayerNametagShowing (thePlayer, false)
+        end
+end
+addCommandHandler ("invisible", InvisibleCommand)
+function Visible (thePlayer, command)
+   if ( hasObjectPermissionTo ( thePlayer, "command.kick", true ) ) then
+  setElementAlpha (thePlayer, 255)
+  setPlayerNametagShowing (thePlayer, true)
+  end
+end
+addCommandHandler ("visible", Visible)
+function addHelmetOnEnter ( theVehicle, seat, jacked )
+    if ( getElementModel ( theVehicle ) == 522 ) then -- if its a nrg
+        addPedClothes ( source, "moto", "moto", 16 ) -- add the helmet
+        cancelEvent() -- add the helmet
+    end
+end
+addEventHandler ( "onPlayerVehicleEnter", getRootElement(), addHelmetOnEnter )
+policeVehicles = { [598]=true, [596]=true, [597]=true, [599]=true }
+policeSkins = { [280]=true, [281]=true, [282]=true, [283]=true, [284]=true, [285]=true, [286]=true }
+ 
+function enterVehicle ( theVehicle, seat, jacked ) --when a player enters a vehicle
+    if ( policeVehicles[getElementModel ( theVehicle )] ) and ( not policeSkins[getElementModel ( source )] ) then -- if the vehicle is one of 4 police cars, and the skin is not a police skin
+        removePedFromVehicle ( source ) -- force the player out of the vehicle
+        outputChatBox ( "You are not in PD faction!", source,255,0,0 ) -- and tell the player why
+
+     end
+     if ( policeVehicles[getElementModel ( theVehicle )] ) and (  policeSkins[getElementModel ( source )] ) then
+	outputChatBox ( "((This vehicle belongs to PD faction.))", source,102,205,170 )
+	end
+end
+addEventHandler ( "onPlayerVehicleEnter", getRootElement(), enterVehicle )
+function jobvehicle ( theVehicle, seat, jacked )
+       local playeraccount = getPlayerAccount ( source )
+   	if ( playeraccount ) then
+  	local playerjob = getAccountData (playeraccount, "s.job")
+	if ( getElementModel ( theVehicle ) == 414 ) then 
+        
+        if (playerjob == 3 ) then 
+	outputChatBox ( "((This Mule is a civilian vehicle.))", source,102,205,170 )
+	else
+	removePedFromVehicle ( source )
+	end
+	end
+    end
+end
+addEventHandler ( "onPlayerVehicleEnter", getRootElement(), jobvehicle )
+function outputLicensePlate ()
+  -- get the vehicle the local player is in
+  local localPlayerOccupiedVehicle = getPlayerOccupiedVehicle (source)
+  -- if he is in a vehicle,
+  if localPlayerOccupiedVehicle then
+    -- get the license plate text
+    local plateText = getVehiclePlateText ( localPlayerOccupiedVehicle )
+    -- if there was a license plate,
+    if plateText then
+      -- output it to the chatbox
+      outputChatBox ( "Your license plate is: " .. plateText )
+    else
+      outputChatBox ( "Your vehicle has no license plate." )
+    end
+  else
+    outputChatBox ( "You're not in a vehicle." )
+  end
+end
+-- add our function as a handler to the "plate" command
+addCommandHandler( "plate",outputLicensePlate )

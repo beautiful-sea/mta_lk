@@ -1,0 +1,23 @@
+
+GUIEditor = {
+    button = {},
+    window = {},
+    label = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(528, 196, 343, 240, "Retirar Drogras", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.button[1] = guiCreateButton(220, 184, 108, 46, "Retirar tudo", false, GUIEditor.window[1])
+        GUIEditor.button[2] = guiCreateButton(10, 199, 83, 31, "Sair", false, GUIEditor.window[1])
+        GUIEditor.label[1] = guiCreateLabel(11, 30, 199, 37, "Erva disponível para retirada:", false, GUIEditor.window[1])
+        GUIEditor.label[2] = guiCreateLabel(12, 56, 96, 45, "5", false, GUIEditor.window[1])
+        guiSetFont(GUIEditor.label[2], "sa-header")
+        guiLabelSetColor(GUIEditor.label[2], 92, 246, 8)
+        GUIEditor.label[3] = guiCreateLabel(12, 111, 203, 38, "Pó disponível para retirada:", false, GUIEditor.window[1])
+        GUIEditor.label[4] = guiCreateLabel(11, 138, 97, 51, "12", false, GUIEditor.window[1])
+        guiSetFont(GUIEditor.label[4], "sa-header")
+        guiLabelSetColor(GUIEditor.label[4], 92, 246, 8)    
+    end
+)

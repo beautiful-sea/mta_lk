@@ -1,0 +1,7 @@
+<meta>
+<script src="placa.lua" type="client"/>
+<file src="placa.dff"/>
+<file src="placa.col"/>
+<file src="placa.txd"/>
+
+</meta>

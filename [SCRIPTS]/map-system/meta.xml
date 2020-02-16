@@ -1,0 +1,21 @@
+<meta>
+	
+	<map src="Cityhall/cityhall.map"/>
+	<script src="World/Docks.lua" type="client"/>
+	<script src="World/Main Street.lua" type="client"/>
+	<script src="World/Busstops_LS_LineAB.lua" type="client"/>
+	<script src="World/Pershing_Square.lua" type="client"/>
+	<script src="World/Gang_Gun_Dealer.lua" type="client"/>
+	<script src="World/Mulholland.lua" type="client"/>
+
+
+	<script src="LSPD/PD Impound.lua" type="client"/>
+	<script src="LSPD/PDRoof.lua" type="client"/>
+	<script src="LSPD/PD CPU Parking Lot.lua" type="client"/>
+	
+	<!-- 2: Los Santos Emergency Services -->
+	<script src="LSES/ES Academy.lua" type="client"/>
+	<script src="LSES/FD Interior.lua" type="client"/>
+	<script src="LSES/ES-Hospital-Rooftop.lua" type="client"/>
+	
+</meta>

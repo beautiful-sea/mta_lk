@@ -1,0 +1,8 @@
+<meta>
+	<info author="gauderio" version="1.0.0" type="script" name="biz" description="biz" showInResourceBrowser="true" />
+	<script src="replace.lua" type="client" />
+
+	
+	<file src="586.dff" />
+	<file src="586.txd" />
+</meta>

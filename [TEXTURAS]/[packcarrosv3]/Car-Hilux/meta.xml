@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<meta>
+     <info author="PEREIRA O BRABO" type="misc" name="3K VIADO" description="3K VIADO" />
+     <script src="replace.lua" type="client" />
+     <file src="579.txd" />
+     <file src="579.dff" />
+</meta>

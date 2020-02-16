@@ -1,0 +1,14 @@
+mesa = createObject(2762,1210.724609375,3.644921875,1000.321875,0,0,180.3961730957)
+setElementInterior ( mesa, 2 )
+ddj = createObject(14820,1210.8080078125,3.5119140625,1000.8198730469,0,0,179.02838134766)
+setElementInterior (ddj, 2)
+dj = createPed(142,1210.740234375,4.662109375,1000.921875,184.88900756836) 
+setElementInterior(dj,2)
+
+
+function cancelarPedDano() 
+    cancelEvent() 
+end 
+addEventHandler("onClientPedDamage", dj, cancelarPedDano)  
+
+setPedFrozen(dj,true)

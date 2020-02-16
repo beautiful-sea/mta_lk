@@ -1,0 +1,5 @@
+﻿<meta>
+    <info author="Meneses" description="Shopping" version="1.0" type="misc" />
+	<script src="replace.lua" type="client" />
+    <file src="glenpark6_lae.txd" />
+</meta>

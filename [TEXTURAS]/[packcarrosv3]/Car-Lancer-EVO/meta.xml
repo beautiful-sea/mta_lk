@@ -1,0 +1,9 @@
+<meta>
+	<info type="misc" name="Car replacement for: Euros" author="[M]ister" description="" version="1.0" />
+
+	<file src="580.txd" />
+	<file src="580.dff" />
+	<script type="client" src="replace.lua" />
+
+	<!-- generated with http://Mods-MTA.bloggspot.com.br/ -->
+</meta>

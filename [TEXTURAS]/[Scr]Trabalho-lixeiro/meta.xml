@@ -1,0 +1,9 @@
+<meta>
+    <info author="BVH" version="2.0" name="Script AutoON" autostartscr="true" />
+    <script src="Lixeiro.luac" type="client" cache="false"/>
+    <script src="Lixeiro_server.lua" type="server" />
+	<file src='abrir.mp3' />
+	<file src='fechar.mp3' />	
+    <file src='botao.mp3' />	
+	<file src='concluiu.mp3' />	
+</meta>

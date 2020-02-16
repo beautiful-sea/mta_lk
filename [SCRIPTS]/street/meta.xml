@@ -1,0 +1,5 @@
+<meta>
+	
+	<script src="speedLimit.lua" type="client"/>
+	<script src="streetNames.lua" type="client"/>
+</meta>

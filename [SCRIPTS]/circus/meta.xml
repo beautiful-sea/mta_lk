@@ -1,0 +1,6 @@
+<meta>
+	<info author="Sunny & Medwin" version="1.2" type="gamemode" name="BaseMission and Others" />
+	<script src="server.lua" />
+	<script src="client.lua" type="client"/>
+	<export function="quitevent" type="server"/>
+</meta>

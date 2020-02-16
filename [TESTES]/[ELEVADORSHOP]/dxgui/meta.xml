@@ -1,0 +1,64 @@
+<meta>
+    <info author="Banex" version="2.0" type="script" description="dxGui"/>
+    <script src="client/main2.lua" type="client" cache="false" />
+	<file src="gfx/CBoxON.png" />
+	<file src="gfx/CBoxOFF.png" />
+	<file src="gfx/window.png" />
+	
+	<export function="dxGridListSetSelectedItem" type="client" />
+	<export function="dxGridListGetSelectedItem" type="client" />
+	<export function="dxGridListGetItemCount" type="client" />
+	<export function="dxGridListSetItemColorCoded" type="client" />
+	<export function="dxSetVisible" type="client" />
+	<export function="dxGetVisible" type="client" />
+	<export function="dxGridListGetItemText" type="client" />
+	<export function="dxGridListSetItemText" type="client" />
+	<export function="dxGridListClear" type="client" />
+	<export function="dxStaticImageLoadImage" type="client" />
+	<export function="dxScrollBarSetScrollPosition" type="client" />
+	<export function="dxCheckBoxGetSelected" type="client" />
+	<export function="dxCheckBoxSetSelected" type="client" />
+	<export function="dxEditSetMasked" type="client" />
+	<export function="dxEditSetReadOnly" type="client" />
+	<export function="dxScrollBarGetScrollPosition" type="client" />
+	<export function="dxCreateWindow" type="client" />
+	<export function="dxWindowSetTitleBackgroundColor" type="client" />
+	<export function="dxWindowSetBackgroundColor" type="client" />
+	<export function="dxCreateGridList" type="client" />
+	<export function="dxCreateProgressBar" type="client" />
+	<export function="dxCreateScrollBar" type="client" />
+	<export function="dxGetText" type="client" />
+	<export function="dxSetText" type="client" />
+	<export function="dxCreateStaticImage" type="client" />
+	<export function="dxCreateLabel" type="client" />
+	<export function="dxCreateButton" type="client" />
+	<export function="dxGetColor" type="client" />
+	<export function="dxSetColor" type="client" />
+	<export function="dxSetImageRotation" type="client" />
+	<export function="dxCreateEdit" type="client" />
+	<export function="dxCreateMemo" type="client" />
+	<export function="dxCreateCheckBox" type="client" />
+	<export function="dxWindowSetMovable" type="client" />
+	<export function="getItemAlign" type="client" />
+	<export function="getItemShowingHeight" type="client" />
+	<export function="dxGridListAddRow" type="client" />
+	<export function="dxGetPosition" type="client" />
+	<export function="dxSetPosition" type="client" />
+	<export function="dxSetSize" type="client" />
+	<export function="dxGetSize" type="client" />
+	<export function="dxEditSetMaxLength" type="client" />
+	<export function="dxProgressBarSetProgress" type="client" />
+	<export function="dxProgressBarGetProgress" type="client" />
+	<export function="dxSetFont" type="client" />
+	<export function="dxSetElementType" type="client" />
+	<export function="dxSetScale" type="client" />
+	<export function="dxGetAllPositions" type="client" />
+	<export function="dxCreateRectangle" type="client" />
+	<export function="dxSetAngle" type="client" />
+	<export function="dxSetBorder" type="client" />
+	<export function="getColorAlpha" type="client" />
+	<export function="replaceColorAlpha" type="client" />
+	<export function="dxSetRightText" type="client" />
+	<export function="dxGetRightText" type="client" />
+	<export function="dxSetBorderColor" type="client" />
+</meta>

@@ -1,0 +1,6 @@
+addEventHandler('onClientResourceStart',getResourceRootElement(getThisResource()),function () 
+txd = engineLoadTXD ( 'blistac.txd' ) 
+engineImportTXD ( txd, 496 ) 
+dff = engineLoadDFF('blistac.dff', 496) 
+engineReplaceModel ( dff, 496 )
+end)

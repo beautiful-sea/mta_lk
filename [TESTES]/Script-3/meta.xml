@@ -1,0 +1,10 @@
+<meta>
+    <script src="Pickup.lua" type="server" />
+    <script src="npcPutero.lua" type="client" />
+    <script src="dj.lua" type="client" />
+    <script src="privado_s.lua" type="server" />
+    <script src="privado_c.lua" type="client" />
+
+    <export function="getPagante" type="client"/>
+    <export function="getPagante" type="server"/>
+</meta>

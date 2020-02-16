@@ -1,0 +1,5 @@
+<meta>
+	<script src="commands.lua" type="client" />
+	<script src="help.lua" type="client" />
+	<script src="server.lua" />
+</meta>

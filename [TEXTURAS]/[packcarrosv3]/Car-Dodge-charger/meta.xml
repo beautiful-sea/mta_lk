@@ -1,0 +1,5 @@
+<meta>
+	<file src="402.txd" />
+	<file src="402.dff" />
+	<script type="client" src="replace.lua" />
+</meta>

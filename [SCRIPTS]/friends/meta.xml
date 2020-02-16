@@ -1,0 +1,7 @@
+
+<meta>
+	<script src="ser.lua"/>
+	
+	<script src="client.lua" type="client"/>
+
+</meta>

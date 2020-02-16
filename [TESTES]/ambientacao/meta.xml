@@ -1,0 +1,16 @@
+<meta>
+	<script src="client.lua" type="client"></script>
+	<file src="musicas/baile-de-favela.mp3"/>
+	<file src="musicas/mano_chega_ai.mp3"/>
+	<file src="musicas/ser-ou-nao-ser.mp3"/>
+	<file src="musicas/auto-incentivo.mp3"/>
+	<file src="musicas/reportagem_orochi_preso.mp3"/>
+	<file src="musicas/pai_vendo_jogo.mp3"/>
+	<file src="musicas/o_maskara.mp3"/>
+	<file src="musicas/todomundo.mp3"/>
+	<file src="musicas/ronco.mp3"/>
+	<file src="musicas/faustao.mp3"/>
+	<file src="musicas/beat.mp3"/>
+	<file src="musicas/discu.mp3"/>
+	<file src="musicas/caves.mp3"/>
+</meta>

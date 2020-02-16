@@ -1,0 +1,4 @@
+Todos os creditos do script ao criador (Banex) 
+
+Apenas editei as imagens algumas funções e textos
+mantendo os creditos para o criador original no meta.xml

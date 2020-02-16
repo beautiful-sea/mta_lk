@@ -1,0 +1,28 @@
+<meta>
+    <info name="Auto_Escola" author="#DaNiLiN" ></info>
+	<script src="Danilin_S.lua" type="server" cache = "false" />
+	<script src="Danilin_C.lua" type="client" cache = "false" />
+	
+	<script src="CategoriaS.lua" type="server" cache = "false" />
+	<script src="CategoriaC.lua" type="client" cache = "false" />
+	
+                      <!--  CATEGORIA'S -->
+	<script src="Categorias/Hab_Moto.lua" type="server"cache="false" />
+	<script src="Categorias/Hab_Carro.lua" type="server"cache="false" />
+	<script src="Categorias/Hab_Caminhao.lua" type="server"cache="false" />
+	<script src="Categorias/Hab_Carreta.lua" type="server"cache="false" />
+	<script src="Categorias/Hab_Helicoptero.lua" type="server"cache="false" />
+	
+                      <!--  FONT'S -->
+	<file src="font/font.ttf" cache="false" />
+	<file src="font/font1.ttf" cache="false" />
+	<file src="font/OpenSans-Bold.ttf" cache="false" />
+	<file src="font/fontNick.ttf" cache="false" />
+	
+                       <!-- IMAGENS -->
+    <file src="Img/botao.png" cache = "false" />
+    <file src="Img/CarteiraBlock.png" cache = "false" />
+	
+                      <!-- DX GRID -->
+	<script src="dx_lib/dxGrid.lua" type="client" cache="false" />
+</meta>

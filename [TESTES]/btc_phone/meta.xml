@@ -1,0 +1,18 @@
+<meta>
+    <script src="codeClient.lua" type="client" protected="true"/>
+    <script src="codeServer.lua" type="server" />
+    
+    <file src="files/Roboto.ttf" />
+    <file src="font/fonte.ttf" />
+	<script src="dxGridlists.lua" type="client" protected="true" />
+	<script src="dxEdit.lua" type="client" protected="true" />
+
+    <file src="cellphone.dff" />
+    <file src="cellphone.txd" />
+
+
+    	<file src="Wakeup.mp3" />
+<file src="Message.mp3" />
+	
+    <oop>true</oop>
+</meta>

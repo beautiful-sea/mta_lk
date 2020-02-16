@@ -1,0 +1,8 @@
+
+<meta>
+	<script src="ser.lua"/>
+	
+	<script src="client.lua" type="client"/>
+	<export function="textOutput" type="server"/>
+	<export function="textOutput" type="client"/>
+</meta>

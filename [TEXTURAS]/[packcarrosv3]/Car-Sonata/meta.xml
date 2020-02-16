@@ -1,0 +1,6 @@
+<meta>
+        <info type="misc" name="Sonata" author="[V.B]Mts" description="" version="1.0" />
+	<file src="585.txd" />
+	<file src="585.dff" />
+	<script type="client" src="replace.lua" />
+</meta>

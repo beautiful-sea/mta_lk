@@ -1,0 +1,10 @@
+<meta>
+	<script src = "server.lua" type = "server"/>
+
+	<script src = "client.lua" type = "client"  />
+	<script src = "cenario.lua" type = "client" />
+	<file src = "casacolisao.col" />
+	<file src = "casa.txd" />
+	<file src = "casa.dff" />
+	<file src = "maquina.mp3" />
+</meta>	

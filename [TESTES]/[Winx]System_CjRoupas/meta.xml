@@ -1,0 +1,6 @@
+<meta>
+    <script src="Clothes_C.lua" type="client" protected="true"/>
+	<script src="CJ_C.lua" type="client" protected="true"/>
+	<script src="Clothes_S.lua" type="server"/>
+	
+</meta>

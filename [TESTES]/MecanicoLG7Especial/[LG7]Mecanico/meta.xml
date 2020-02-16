@@ -1,0 +1,9 @@
+﻿<meta>
+    <script src="l_C.lua" type="client" />
+	<script src="l_S.lua" type="server" />
+	<file src="icon.png" />
+	<file src="reparando.png" />
+	<file src="somec.mp3" />
+	<file src="Furadeira.dff" />
+	<file src="Furadeira.txd" />
+</meta>

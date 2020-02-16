@@ -1,0 +1,12 @@
+<meta>
+	<script src="hud.lua" type="client"/>
+	<script src="drawNote/drawNotification.lua" type="client"/>
+	<export function="drawNote" type="client" http="false"/>
+	<export function="drawNote" type="server" http="false"/>
+
+	<script src="drawMissionText/drawMissionText.lua" type="client"/>
+	<script src="drawMissionEvent/drawMissionEvent.lua" type="client"/>
+	<script src="drawStat/drawStat.lua" type="client"/>
+	<script src="dm/displayMessage.lua" type="client"/>
+
+</meta>

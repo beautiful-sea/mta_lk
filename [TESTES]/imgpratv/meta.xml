@@ -1,0 +1,10 @@
+<meta>
+    <info type="map" version="1.0.0"></info>
+
+    <file src="images/env3.bmp"></file>
+    <file src="uv_scripted.fx"></file>
+    <file src="include/tex_matrix.fx"></file>
+    <script src="c_uv_scripted.lua" type="client"></script>
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+</meta>

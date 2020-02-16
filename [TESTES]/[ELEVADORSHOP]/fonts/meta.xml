@@ -1,0 +1,11 @@
+<meta>
+	<info author="Banex" type="script" version="1.0" />
+
+	<script src="client/main.lua" type="client" />
+	<file src="gfx/sans-pro-regular.ttf" />
+	<file src="gfx/msyi.ttf" />
+	<file src="gfx/ninja.ttf" />
+	<file src="gfx/SignPainter.ttf"/>
+	<file src="gfx/myriadproregular.ttf" />
+	<export function="createFont" type="client" />
+</meta>

@@ -1,0 +1,9 @@
+<meta>
+    <info author="Medwin" type="script" description="Custum hood"/>
+
+	    <script src="test.lua" type = "client" />
+    <script src="hood.lua" type = "client" />
+ <script src="hoods.lua" />
+  <file src="hudpic.png" />
+
+</meta>

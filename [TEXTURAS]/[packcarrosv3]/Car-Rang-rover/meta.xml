@@ -1,0 +1,7 @@
+<meta>
+	<info type="misc" name="" author="Dr.Zuda" description="Não Tira os Créditos Nuub !" version="1" />
+	<file src="400.txd" />
+	<file src="400.dff" />
+	<script type="client" src="veiculo.lua" />
+
+</meta>

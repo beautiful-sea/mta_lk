@@ -1,0 +1,6 @@
+<meta>
+    <info gamemodes="ctf" type="map" name="Jetpack " author="Sunny" version="0.0.1" description="CTF map" />
+    <map src="stationu.map" dimension="0" />
+   <script src="server.lua"/>
+  
+</meta>

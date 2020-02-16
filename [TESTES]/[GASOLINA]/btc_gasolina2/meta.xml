@@ -1,0 +1,19 @@
+<meta>
+	<info author="NG Scripting Team" name="NG Vehicles" type="script" version="1.0" />
+	<export function="getVehicleSpeed" type="client" />
+	
+
+	<script src="hud_c.lua" type="client" />
+	<script src='fuel/timer.lua' type='server' />
+	<script src='fuel/refuel.lua' type='client' protected="true" />
+	<script src='fuel/locations.lua' type='shared' />
+	<file src='fuel/fuel_icon.png' />
+	
+	
+	<!-- Exports for phone -->
+	<export function="SetVehicleVisible" />
+	<export function="recoverVehicle" />
+	<export function="sellVehicle" />
+	
+	<min_mta_version server="1.3.4-0.00000" client="1.3.4-0.00000"></min_mta_version>
+</meta>

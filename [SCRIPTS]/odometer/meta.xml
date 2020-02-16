@@ -1,0 +1,7 @@
+<meta>
+	<info author="Dev" type="script" description="Vehicle Odometer"/>
+	
+	<script src="s_odometer.lua" type="server"/>
+	<script src="c_odometer.lua" type="client"/>
+	<script src="odometer.lua" type="client"/>
+</meta>	

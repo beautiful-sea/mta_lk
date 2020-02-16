@@ -1,0 +1,4 @@
+Ligue o mod fontes após isso ligue o mod dxgui feito isso ligue
+o mod elevadorpainel e provavelmente vai funcionar ja ! 
+
+Caso não funcione reinicie o mod elevadorpainel

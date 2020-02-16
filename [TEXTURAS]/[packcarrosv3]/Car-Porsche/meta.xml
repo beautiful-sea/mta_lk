@@ -1,0 +1,7 @@
+<meta>
+	<info type="misc" name="MasterMods-Blogpot.com" author="+[V]inne" description="" version="1" />
+	<file src="Porsche.txd" />
+	<file src="Porsche.dff" />
+	<script type="client" src="replace.lua" />
+	<!-- generated with http://mta.dzek.eu/ -->
+</meta>

@@ -1,0 +1,13 @@
+<meta>
+	<info author="Banex" type="script" version="1.0.3" />
+	
+	<script src="client/class/Pointer2.lua" type="client" cache="false" />	
+	<script src="client/core2.lua" type="client" cache="false" />
+	<script src="client/main2.lua" type="client" cache="false" />
+	<script src="server/main.lua" type="server" />
+	<file src="sfx/ping.mp3" />
+	<file src="gfx/circle.png" />
+	<file src="gfx/icon.png" />
+	<file src="gfx/background.png" />
+	<file src="gfx/Light.ttf" />
+</meta>

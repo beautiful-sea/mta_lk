@@ -1,0 +1,13 @@
+<meta>
+	
+
+	<script src = "quadrob.lua" type = "client" />
+    
+    
+	<file src = "quadro.txd" />
+	<file src = "quadro.dff" />
+	<file src = "quadro.col" />
+	
+	
+</meta>	
+

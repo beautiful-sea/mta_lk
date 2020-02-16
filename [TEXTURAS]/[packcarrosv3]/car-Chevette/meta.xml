@@ -1,0 +1,6 @@
+<meta>
+        <info type="misc" name="Converter" author="#C4N3L4" description="" version="1.0" />
+	<file src="401.txd" />
+	<file src="401.dff" />
+	<script type="client" src="replace.lua" />
+</meta>

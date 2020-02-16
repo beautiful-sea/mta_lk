@@ -1,0 +1,13 @@
+<map edf:definitions="editor_main">
+    <object id="object (sprayshpdr2_SFSe) (2)" doublesided="false" model="11319" interior="0" dimension="0" posX="1228.3909912109" posY="-1470.0078125" posZ="15.452917098999" rotX="0" rotY="0.7470703125" rotZ="90.087890625" />
+    <object id="object (sprayshpdr2_SFSe) (3)" doublesided="false" model="11319" interior="0" dimension="0" posX="1211.3843994141" posY="-1470.0078125" posZ="15.452917098999" rotX="0" rotY="0.7415771484375" rotZ="90.087890625" />
+    <object id="object (sprayshpdr2_SFSe) (4)" doublesided="false" model="11319" interior="0" dimension="0" posX="1219.8312988281" posY="-1470.0078125" posZ="15.452917098999" rotX="0" rotY="0.7415771484375" rotZ="90.087890625" />
+    <object id="object (noparkingsign1) (1)" doublesided="false" model="1233" interior="0" dimension="0" posX="1231.3576660156" posY="-1415.8885498047" posZ="13.66170501709" rotX="0" rotY="0" rotZ="178.65002441406" />
+    <object id="object (noparkingsign1) (2)" doublesided="false" model="1233" interior="0" dimension="0" posX="1208.4847412109" posY="-1415.8923339844" posZ="13.66170501709" rotX="0" rotY="0" rotZ="178.64868164063" />
+	<object id="object (carimp_SFE) (1)" doublesided="false" model="10051" interior="0" dimension="0" posX="1269.921875" posY="-1341.3905029297" posZ="-32.719203948975" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (vgnpolicecpark) (1)" doublesided="false" model="7010" interior="0" dimension="0" posX="1205.3267822266" posY="-1298.3118896484" posZ="-23.765596389771" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (michdr) (1)" doublesided="false" model="10182" interior="0" dimension="0" posX="1229.3729248047" posY="-1305.0657958984" posZ="-29.87296295166" rotX="90" rotY="0" rotZ="180" />
+    <object id="object (michdr) (2)" doublesided="false" model="10182" interior="0" dimension="0" posX="1229.0869140625" posY="-1320.240234375" posZ="-30.175838470459" rotX="90" rotY="180.00549316406" rotZ="179.98352050781" />
+    <object id="object (xref_garagedoor) (1)" doublesided="false" model="2885" interior="0" dimension="0" posX="1214.0124511719" posY="-1310.1820068359" posZ="-23.706647872925" rotX="0" rotY="0" rotZ="59" />
+
+</map>

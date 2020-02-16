@@ -1,0 +1,6 @@
+<meta>
+	<script src="caixamaconha.lua" type="client"/>
+	<file src="caixam.col"/>
+	<file src="caixam.txd"/>
+	<file src="caixam.dff"/>
+</meta>

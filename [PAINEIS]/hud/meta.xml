@@ -1,0 +1,8 @@
+<meta>
+	<info name="HUD" version="1.0" author="SempaY"/> 
+	 
+	<script src="client.lua" type="client" cache="false"/>
+    
+    <file src="files/hud.png"/>
+    <file src="files/UniSans.ttf"/>
+</meta>

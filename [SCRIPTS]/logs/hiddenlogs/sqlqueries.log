@@ -1,0 +1,274 @@
+[2011-10-10 00:29] MYSQL ERROR :O! [QUERY] SELECT username FROM accounts WHERE admin == 6 [ERROR] 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== 6' at line 1
+[2011-10-10 00:29] MYSQL ERROR :O! [QUERY] SELECT username FROM accounts WHERE admin == 6 [ERROR] 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== 6' at line 1
+[2011-10-10 00:31] MYSQL ERROR :O! [QUERY] SELECT usernam FROM accounts WHERE admin = 6 [ERROR] 1054: Unknown column 'usernam' in 'field list'
+[2011-10-10 01:35] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:35] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:35] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:40] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:40] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:42] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:42] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:42] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:43] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:43] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:43] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:44] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:44] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:44] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:46] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:46] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:46] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:46] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:46] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:46] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:46] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:46] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:46] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:46] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:46] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-10 01:46] MYSQL ERROR :O! [QUERY] UPDATE accounts SET `rulesread` = 1 WHERE id = '297' [ERROR] 1054: Unknown column 'rulesread' in 'field list'
+[2011-10-12 15:04] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id =  [ERROR] 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[2011-10-12 17:17] MYSQL ERROR :O! [QUERY] SELECT id,username FROM account WHERE username = 'irahul1997' [ERROR] 1146: Table 'latest.account' doesn't exist
+[2011-10-12 17:17] MYSQL ERROR :O! [QUERY] SELECT id,username FROM account WHERE username = 'irahul1997' [ERROR] 1146: Table 'latest.account' doesn't exist
+[2011-10-13 09:22] MYSQL ERROR :O! [QUERY] SELECT * FROM accounts WHERE username=Carl [ERROR] 1054: Unknown column 'Carl' in 'where clause'
+[2011-10-13 09:22] MYSQL ERROR :O! [QUERY] SELECT * FROM accounts WHERE username=Carl [ERROR] 1054: Unknown column 'Carl' in 'where clause'
+[2011-10-13 09:22] MYSQL ERROR :O! [QUERY] SELECT * FROM accounts WHERE username=Carl [ERROR] 1054: Unknown column 'Carl' in 'where clause'
+[2011-10-13 09:27] MYSQL ERROR :O! [QUERY] SELECT * FROM accounts WHERE username = Carl'  [ERROR] 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1
+[2011-10-13 09:27] MYSQL ERROR :O! [QUERY] SELECT * FROM accounts WHERE username = Carl'  [ERROR] 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1
+[2011-10-13 09:27] MYSQL ERROR :O! [QUERY] SELECT * FROM accounts WHERE username = Carl'  [ERROR] 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1
+[2011-10-13 12:18] MYSQL ERROR :O! [QUERY] SELECT username,HOUR(TIMEDIFF(NOW(), a.lastlogin)) as hourtimediff FROM accounts WHERE id = '671' [ERROR] 1054: Unknown column 'a.lastlogin' in 'field list'
+[2011-10-13 12:18] MYSQL ERROR :O! [QUERY] SELECT username,HOUR(TIMEDIFF(NOW(), a.lastlogin)) as hourtimediff FROM accounts WHERE id = '671' [ERROR] 1054: Unknown column 'a.lastlogin' in 'field list'
+[2011-10-13 12:22] MYSQL ERROR :O! [QUERY] SELECT a.username,HOUR(TIMEDIFF(NOW(),a.lastlogin)) as hourtimediff,a.country,DATEDIFF(NOW(),a.lastlogin) as daytimediff  WHERE id = '671' [ERROR] 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '671'' at line 1
+[2011-10-13 12:23] MYSQL ERROR :O! [QUERY] SELECT a.username,HOUR(TIMEDIFF(NOW(),a.lastlogin)) as hourtimediff,a.country,DATEDIFF(NOW(),a.lastlogin) as daytimediff  WHERE a.id = '671' [ERROR] 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE a.id = '671'' at line 1
+[2011-10-13 12:23] MYSQL ERROR :O! [QUERY] SELECT a.username,HOUR(TIMEDIFF(NOW(),a.lastlogin)) as hourtimediff,a.country,DATEDIFF(NOW(),a.lastlogin) as daytimediff  WHERE a.id = '671' [ERROR] 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE a.id = '671'' at line 1
+[2011-10-13 12:33] MYSQL ERROR :O! [QUERY] SELECT DATEDIFF(NOW(), a.lastlogin) as daytimediff ,username,country FROM accounts WHERE id = '671' [ERROR] 1054: Unknown column 'a.lastlogin' in 'field list'
+[2011-10-13 12:33] MYSQL ERROR :O! [QUERY] SELECT DATEDIFF(NOW(), a.lastlogin) as daytimediff ,username,country FROM accounts WHERE id = '671' [ERROR] 1054: Unknown column 'a.lastlogin' in 'field list'
+[2011-10-13 12:50] MYSQL ERROR :O! [QUERY] SELECT DATEDIFF(NOW(), lastlogin) as dayoff,MINUTE(TIMEDIFF(NOW(), a.lastlogin)) as minoff ,lastlogin,username,country FROM accounts WHERE id = '671' [ERROR] 1054: Unknown column 'a.lastlogin' in 'field list'
+[2011-10-13 12:50] MYSQL ERROR :O! [QUERY] SELECT DATEDIFF(NOW(), lastlogin) as dayoff,MINUTE(TIMEDIFF(NOW(), a.lastlogin)) as minoff ,lastlogin,username,country FROM accounts WHERE id = '671' [ERROR] 1054: Unknown column 'a.lastlogin' in 'field list'
+[2012-04-06 22:05] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Baker' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-06 22:05] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-06 22:05] MYSQL ERROR :O! [QUERY] SELECT * FROM event WHERE charid='9320' [ERROR] 1146: Table 'roleplay.event' doesn't exist
+[2012-04-06 22:08] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = '5502' [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-06 22:09] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-06 22:17] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-06 22:17] MYSQL ERROR :O! [QUERY] SELECT COUNT(*) as 'numbr'  FROM `interiors` [ERROR] 1146: Table 'roleplay.interiors' doesn't exist
+[2012-04-06 22:18] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Baker' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-06 22:18] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-06 22:22] MYSQL ERROR :O! [QUERY] SELECT * FROM factions ORDER BY id ASC [ERROR] 1146: Table 'roleplay.factions' doesn't exist
+[2012-04-06 22:22] MYSQL ERROR :O! [QUERY] DELETE FROM ucp [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-06 22:22] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-06 22:22] MYSQL ERROR :O! [QUERY] SELECT COUNT(*) as 'numbr'  FROM `interiors` [ERROR] 1146: Table 'roleplay.interiors' doesn't exist
+[2012-04-06 22:22] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Baker' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-06 22:22] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-06 22:24] MYSQL ERROR :O! [QUERY] SELECT * FROM factions ORDER BY id ASC [ERROR] 1146: Table 'roleplay.factions' doesn't exist
+[2012-04-06 22:25] MYSQL ERROR :O! [QUERY] DELETE FROM ucp [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-06 22:25] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-06 22:25] MYSQL ERROR :O! [QUERY] SELECT COUNT(*) as 'numbr'  FROM `interiors` [ERROR] 1146: Table 'roleplay.interiors' doesn't exist
+[2012-04-06 22:25] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Baker' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-06 22:25] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-06 22:25] MYSQL ERROR :O! [QUERY] SELECT COUNT(*) as 'numbr'  FROM `interiors` [ERROR] 1146: Table 'roleplay.interiors' doesn't exist
+[2012-04-06 22:26] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-06 22:28] MYSQL ERROR :O! [QUERY] SELECT id, x, y, z, tpx, tpy, tpz, dimensionwithin, interiorwithin, dimension, interior, car, disabled FROM elevators [ERROR] 1146: Table 'roleplay.elevators' doesn't exist
+[2012-04-06 22:29] MYSQL ERROR :O! [QUERY] SELECT id, x, y, z, tpx, tpy, tpz, dimensionwithin, interiorwithin, dimension, interior, car, disabled FROM elevators [ERROR] 1146: Table 'roleplay.elevators' doesn't exist
+[2012-04-06 22:33] MYSQL ERROR :O! [QUERY] SELECT id, name, type, (SELECT COUNT(*) FROM characters c WHERE c.faction_id = f.id) AS members FROM factions f ORDER BY id ASC [ERROR] 1146: Table 'roleplay.factions' doesn't exist
+[2012-04-06 22:35] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-06 22:55] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-06 22:58] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-06 23:48] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-06 23:50] MYSQL ERROR :O! [QUERY] DELETE FROM ucp [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-06 23:51] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-06 23:51] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Baker' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-06 23:51] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-07 00:13] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-18 18:06] MYSQL ERROR :O! [QUERY] DELETE FROM ucp [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-18 18:06] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-18 18:07] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Baker' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-18 18:07] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-18 19:09] MYSQL ERROR :O! [QUERY] DELETE FROM ucp [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-18 19:09] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-18 19:09] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Baker' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-18 19:09] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-18 20:01] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-19 07:40] MYSQL ERROR :O! [QUERY] DELETE FROM ucp [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-19 07:41] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-19 07:41] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Baker' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-19 07:41] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-19 08:01] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-19 12:26] MYSQL ERROR :O! [QUERY] DELETE FROM ucp [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-19 12:27] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-19 12:28] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Baker' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-19 12:28] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-19 12:38] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-19 12:38] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-19 12:39] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Baker' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-19 12:39] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-19 13:03] MYSQL ERROR :O! [QUERY] SELECT * FROM `tokenshop` ORDER BY `id` ASC [ERROR] 1146: Table 'roleplay.tokenshop' doesn't exist
+[2012-04-19 13:14] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-19 15:03] MYSQL ERROR :O! [QUERY] DELETE FROM ucp [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-19 15:04] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-19 15:32] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 03:17] MYSQL ERROR :O! [QUERY] DELETE FROM ucp [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 03:17] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 03:44] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Towers' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 03:44] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 03:47] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 03:49] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 03:49] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 03:49] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Towers' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 03:49] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 04:01] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 05:31] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Tower' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 05:31] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 06:28] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Towers' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 06:28] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 06:31] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 06:36] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 06:37] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 06:37] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Towers' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 06:37] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 06:37] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 06:37] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 06:37] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 06:38] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Towers' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 06:38] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 06:38] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 06:38] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 06:38] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Towers' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 06:38] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 06:41] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 06:41] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 07:00] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Towers' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 07:00] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 07:00] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 07:20] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 07:20] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 07:51] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Towers' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 07:51] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 07:51] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 07:51] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 07:53] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Towers' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 07:53] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 08:24] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 08:24] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 08:25] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 08:25] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 08:37] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Parker' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 08:37] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 08:53] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 09:12] MYSQL ERROR :O! [QUERY] SELECT characterid as id, c.charactername as name FROM lottery l LEFT JOIN characters c ON l.characterid = c.id  WHERE ticketnumber = 3524 [ERROR] 1146: Table 'roleplay.lottery' doesn't exist
+[2012-04-20 10:57] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 11:33] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Towers' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 11:33] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 11:35] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 11:42] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 11:42] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 11:43] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 11:48] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 11:52] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 11:52] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 11:54] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Dwight_Towers' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 11:54] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 11:55] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 13:00] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Henry_Hard' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 13:14] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Ma_Ma' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 13:14] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 13:23] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Henry_Hard' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 13:23] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-20 13:43] MYSQL ERROR :O! [QUERY] SELECT COUNT(*) as username FROM accounts WHERE LIMIT 1 [ERROR] 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+[2012-04-20 13:43] MYSQL ERROR :O! [QUERY] SELECT COUNT(*) as username FROM accounts WHERE LIMIT 1 [ERROR] 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+[2012-04-20 13:45] MYSQL ERROR :O! [QUERY] DELETE FROM ucp [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 13:45] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 13:45] MYSQL ERROR :O! [QUERY] INSERT INTO ucp SET id='1', name='Henry_Hard', ping='0' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-20 13:52] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 16:23] MYSQL ERROR :O! [QUERY] DELETE FROM ucp [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 16:23] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 16:30] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Henry_Hard' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 16:30] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-21 16:30] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 16:30] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 17:03] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Henry_Hard' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 17:03] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-21 18:03] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 22:15] MYSQL ERROR :O! [QUERY] DELETE FROM ucp [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 22:15] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 23:37] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Henry_Hard' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 23:37] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-21 23:40] MYSQL ERROR :O! [QUERY] DELETE FROM ucp [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 23:40] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 23:40] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Henry_Hard' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 23:40] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-21 23:40] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = '5502' [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-21 23:45] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='2'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 23:46] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 23:46] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-21 23:46] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Henry_Hard' WHERE id ='2' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 23:46] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-21 23:47] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Bla_Dat' WHERE id ='2' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 23:47] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5504 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-21 23:48] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='2' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-21 23:48] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 00:39] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Henry_Hard' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 00:39] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-22 01:11] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-22 01:12] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 01:12] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 01:12] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 01:12] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 01:42] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='2'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 01:43] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Pro_Player' WHERE id ='2' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 01:43] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5514 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-22 01:43] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='2' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 01:43] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='2'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 01:44] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Bla_Date' WHERE id ='2' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 01:44] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5515 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-22 01:44] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Henry_Hard' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 01:44] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-22 01:45] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='2' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 01:45] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='2'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 01:58] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Qwe_Qwe' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 01:58] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-22 01:58] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Penis_Penis' WHERE id ='2' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 01:58] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5515 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-22 01:58] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 01:58] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 01:59] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 01:59] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 02:03] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Qwe_Qwe' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 02:03] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-22 03:39] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Henry_Hard' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 03:39] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-22 03:43] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 03:43] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 03:49] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 04:02] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='2' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 13:03] MYSQL ERROR :O! [QUERY] SELECT characterid as id, c.charactername as name FROM lottery l LEFT JOIN characters c ON l.characterid = c.id  WHERE ticketnumber = 7396 [ERROR] 1146: Table 'roleplay.lottery' doesn't exist
+[2012-04-22 13:09] MYSQL ERROR :O! [QUERY] DELETE FROM ucp [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 13:09] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 13:53] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Henry_Hard' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 13:53] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-22 13:53] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 13:53] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 13:55] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Henry_Hard' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 13:55] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-22 14:01] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-22 14:06] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 15:11] MYSQL ERROR :O! [QUERY] DELETE FROM ucp [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 15:13] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 15:14] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 15:21] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 15:21] MYSQL ERROR :O! [QUERY] UPDATE ucp SET name= 'Henry_Hard' WHERE id ='1' [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 15:21] MYSQL ERROR :O! [QUERY] SELECT friend FROM friends WHERE id = 5502 [ERROR] 1146: Table 'roleplay.friends' doesn't exist
+[2012-04-22 15:49] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 15:49] MYSQL ERROR :O! [QUERY] SELECT * FROM ucp WHERE id='1'  [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2012-04-22 15:55] MYSQL ERROR :O! [QUERY] DELETE FROM ucp WHERE id='1' LIMIT 1 [ERROR] 1146: Table 'roleplay.ucp' doesn't exist
+[2020-02-07 06:37] MYSQL ERROR :O! [QUERY] UPDATE characters SET `qtd_maconha_pend` = 204, `qtd_po_pend` = 648 WHERE charactername = 'Os_Testes' [ERROR] 1054: Unknown column 'qtd_maconha_pend' in 'field list'
+[2020-02-07 06:37] MYSQL ERROR :O! [QUERY] UPDATE characters SET `qtd_maconha_pend` = 204, `qtd_po_pend` = 648 WHERE charactername = 'Os_Testes' [ERROR] 1054: Unknown column 'qtd_maconha_pend' in 'field list'
+[2020-02-07 06:38] MYSQL ERROR :O! [QUERY] UPDATE characters SET `qtd_maconha_pend` = 222, `qtd_po_pend` = 222 WHERE charactername = 'Os_Testes' [ERROR] 1054: Unknown column 'qtd_maconha_pend' in 'field list'
+[2020-02-07 06:38] MYSQL ERROR :O! [QUERY] UPDATE characters SET `qtd_maconha_pend` = 222, `qtd_po_pend` = 222 WHERE charactername = 'Os_Testes' [ERROR] 1054: Unknown column 'qtd_maconha_pend' in 'field list'
+[2020-02-12 04:38] MYSQL ERROR :O! [QUERY] SELECT senha, dinheiro_caixa FROM favelas WHERE nome='Rocinha' [ERROR] 1054: Unknown column 'senha' in 'field list'
+[2020-02-12 04:38] MYSQL ERROR :O! [QUERY] SELECT senha, dinheiro_caixa FROM favelas WHERE nome='Rocinha' [ERROR] 1054: Unknown column 'senha' in 'field list'
+[2020-02-12 04:38] MYSQL ERROR :O! [QUERY] SELECT senha, dinheiro_caixa FROM favelas WHERE nome='Rocinha' [ERROR] 1054: Unknown column 'senha' in 'field list'
+[2020-02-12 04:38] MYSQL ERROR :O! [QUERY] SELECT senha, dinheiro_caixa FROM favelas WHERE nome='Rocinha' [ERROR] 1054: Unknown column 'senha' in 'field list'
+[2020-02-12 04:38] MYSQL ERROR :O! [QUERY] SELECT senha, dinheiro_caixa FROM favelas WHERE nome='Rocinha' [ERROR] 1054: Unknown column 'senha' in 'field list'
+[2020-02-14 02:26] MYSQL ERROR :O! [QUERY] DELETE FROM fuels WHERE id = ? [ERROR] 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1
+[2020-02-15 05:59] MYSQL ERROR :O! [QUERY] UPDATE characters SET money = money+ 4212 WHERE charactername = Lindomar_Silva [ERROR] 1054: Unknown column 'Lindomar_Silva' in 'where clause'

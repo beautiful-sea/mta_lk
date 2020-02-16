@@ -1,0 +1,7 @@
+<meta>
+<script src="objects.lua" type="client" cache="false" />  
+
+	<file src="models/tvled.dff" />
+	<file src="models/tvled.col" />
+	<file src="models/tvled.txd" />
+</meta>

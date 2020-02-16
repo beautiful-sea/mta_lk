@@ -1,0 +1,5 @@
+<meta>
+	<info author="Medwin" type="script" description="Droppable money"/>
+
+	<script src="server.lua" type="server" />
+</meta>

@@ -1,0 +1,17 @@
+<meta>
+	<info author="#Hungria" type="" name="" description="" version="1"/>
+	<script src="vis_client.lua" type="client"/>
+	<script src="vis_server.lua" type="server"/>
+	<file src="sounds/onDoorOpened.wav" type="client" />
+	<file src="sounds/onDoorClosed.wav" type="client" />
+</meta>
+
+-------------------------------------------------------------
+Nao Remova Isto, Esta Mensagem Nao Aparecera No Seu Servidor
+-------------------------------------------------------------
+Acesse : http://themtasan.blogspot.com.br/
+Criador : #Hungria
+Facebook : https://www.facebook.com/themtasan/
+-------------------------------------------------------------
+Nao Remova Isto, Esta Mensagem Nao Aparecera No Seu Servidor
+-------------------------------------------------------------

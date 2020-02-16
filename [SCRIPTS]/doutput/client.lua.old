@@ -1,0 +1,133 @@
+
+local mylabel = guiCreateLabel  ( 0.0037, 0.47, 1, 1, "", true )
+local mylabel2 = guiCreateLabel  ( 0.0037, 0.50, 1, 1, "", true )
+local mylabel3 = guiCreateLabel  ( 0.0037, 0.53, 1, 1, "", true )
+local mylabel4 = guiCreateLabel  ( 0.0037, 0.56, 1, 1, "", true )
+guiLabelSetColor(mylabel,255,204,0)
+guiLabelSetColor(mylabel2,255,204,0)
+guiLabelSetColor(mylabel3,255,204,0)
+guiLabelSetColor(mylabel4,255,204,0)
+guiSetFont(mylabel,"default-bold-small")
+guiSetFont(mylabel2,"default-bold-small")
+guiSetFont(mylabel3,"default-bold-small")
+guiSetFont(mylabel4,"default-bold-small")
+g_Root = getRootElement()
+
+addEventHandler('onClientPlayerJoin', g_Root,
+	function()
+		text= 'SERVER: ' .. getPlayerName(source) .. ' connected.'
+		           
+                setTimer ( guiSetText,7000, 1, mylabel, "" )
+		outputLabelc(g_Root,0,text)
+	end
+)
+
+addEventHandler('onClientPlayerQuit', g_Root,
+function(reason)
+		text2 = 'SERVER: ' .. getPlayerName(source) .. ' disconnected [' .. reason .. ']'
+		outputLabelc(g_Root,0,text2)            
+            	   setTimer ( guiSetText,7000, 1, mylabel, "" ) 	
+	end
+)
+
+
+
+function outputLabelc(player,type,...)
+
+	name = getPlayerName(getLocalPlayer())
+	text = guiGetText (mylabel)
+	text2 = guiGetText(mylabel2)
+	text3 = guiGetText(mylabel3)
+	local data = table.concat( { ... }, " " )
+if tonumber(type) == 2 then
+	if text == "" then
+		
+		guiSetText(mylabel,data)
+		setTimer(guiSetText,7000,1,mylabel,"")
+		setTimer(guiLabelSetColor,7000,1,mylabel,255,204,0)
+	
+		guiLabelSetColor(mylabel,255,0,0)
+
+	elseif text2 == "" then
+		
+		guiSetText(mylabel2,data)
+		setTimer(guiSetText,7000,1,mylabel2,"")
+		setTimer(guiLabelSetColor,7000,1,mylabel2,255,204,0)
+		guiLabelSetColor(mylabel2,255,0,0)
+
+	elseif text3 == "" then
+		guiSetText(mylabel3,data)
+		setTimer(guiSetText,7000,1,mylabel3,"")
+		setTimer(guiLabelSetColor,7000,1,mylabel3,255,204,0)
+		guiLabelSetColor(mylabel3,255,0,0)
+	else 
+		guiSetText(mylabel4,data)
+		setTimer(guiSetText,7000,1,mylabel4,"")
+		setTimer(guiLabelSetColor,7000,1,mylabel4,255,204,0)
+		guiLabelSetColor(mylabel4,255,0,0)
+		guiSetText (mylabel,"")
+	
+	end
+	return
+end
+
+	if text== "" then
+	
+		guiSetText(mylabel,data)
+		setTimer(guiSetText,7000,1,mylabel,"")
+	elseif text2 == "" then
+	
+		guiSetText(mylabel2,data)
+		setTimer(guiSetText,7000,1,mylabel2,"")
+	elseif text3 == "" then
+		
+		guiSetText(mylabel3,data)
+		setTimer(guiSetText,7000,1,mylabel3,"")
+		
+	else
+		guiSetText(mylabel4,data)
+		setTimer(guiSetText,7000,1,mylabel4,"")
+		guiSetText (mylabel,"")
+	end
+end
+	
+addCommandHandler("oann",outputLabelc)
+addEvent("dooutput",true)
+addEventHandler("dooutput",getRootElement(),outputLabelc)
+
+
+
+
+function weaponSwitch(prevSlot, newSlot)
+	
+	player = getLocalPlayer()
+	curweapon = getPlayerWeapon(player,newSlot)
+	triggerServerEvent("meweapon",getLocalPlayer(),player,curweapon)
+end
+
+--addEventHandler("onPlayerWeaponSwitch", getRootElement(), weaponSwitch)
+addEventHandler("onClientPlayerWeaponSwitch", getRootElement(), weaponSwitch)
+
+local rootElement = getRootElement()
+local screenWidth, screenHeight = guiGetScreenSize() -- Get the screen resolution
+ 
+ 
+function createText ( )
+	if getPedOccupiedVehicle ( getLocalPlayer() ) then
+	if  getElementData(getLocalPlayer(),"loggedin") then
+    local playerX, playerY, playerZ = getElementPosition( getLocalPlayer() )  -- Get player's coordinates.
+    local playerZoneName =  getZoneName( playerX, playerY, playerZ )          -- Get name of the player's zone.
+ 
+    dxDrawText( playerZoneName, 477, screenHeight-54, screenWidth, screenHeight, tocolor ( 0, 0, 0, 255 ), 1.02, "pricedown" )    -- Draw Zone Name text shadow.
+    dxDrawText( playerZoneName, 477, screenHeight-52, screenWidth, screenHeight, tocolor ( 255, 255, 255, 255 ), 1, "pricedown" ) -- Draw Zone Name text.
+    dxDrawText( "Speed Limit: 90km/h", 477, screenHeight-26, screenWidth, screenHeight, tocolor ( 51, 204, 0, 255 ), 0.6,"pricedown" )
+	end
+	end
+end
+ 
+ 
+function HandleTheRendering()
+    addEventHandler("onClientRender",rootElement, createText) -- keep the text visible with onClientRender.
+end
+addEventHandler("onClientResourceStart",rootElement, HandleTheRendering)
+

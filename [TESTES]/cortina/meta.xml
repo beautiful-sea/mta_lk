@@ -1,0 +1,9 @@
+<meta>
+  <script src="cortina.lua" type="client"/>
+  <file src="cortina.dff"/>
+  <file src="cortina.txd"/>
+  <file src="cortina.col"/>
+
+
+
+</meta>	

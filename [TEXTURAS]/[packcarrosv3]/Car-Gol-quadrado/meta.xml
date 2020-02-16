@@ -1,0 +1,6 @@
+<meta>
+	<info type="ST-Mods" name="" author="" description="" version="1" />
+	<file src="436.txd" />
+	<file src="436.dff" />
+	<script type="client" src="replace.lua" />
+</meta>

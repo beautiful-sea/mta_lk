@@ -1,0 +1,6 @@
+<meta>
+<info name='Fiat Punto Sport Edit' type='misc' />
+<script src='script.lua' type='client' />
+<file src='blistac.txd' />
+<file src='blistac.dff' />
+</meta>

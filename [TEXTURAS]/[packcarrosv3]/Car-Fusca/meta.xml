@@ -1,0 +1,9 @@
+<meta>
+	<info type="misc" name="Car replacement for: " author="scarfacexd16" description="" version="1.3" />
+
+        <file src="545.txd" />
+	<file src="545.dff" />
+	<script type="client" src="replace.lua" />
+
+	
+</meta>

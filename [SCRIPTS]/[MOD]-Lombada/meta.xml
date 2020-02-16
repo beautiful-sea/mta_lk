@@ -1,0 +1,12 @@
+<meta>
+	<info type="misc" name="Nova Lombada" author="xxx" description="xx" version="1.4" />
+        <file src="data/lombada.txd" />
+        <file src="data/lombada.col" />
+        <file src="data/lombada.dff" />
+    	<map src="lombada.map" dimension="0"></map>
+	<script type="client" src="replace.lua" />
+
+---- Top Mods Mta Br ----
+----- http://top-mods-mta-br.blogspot.com/ ---
+
+</meta>

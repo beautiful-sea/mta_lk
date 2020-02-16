@@ -1,0 +1,6 @@
+<meta>
+	<info type="misc" name="GolG4" author="GolG4" version="1" />
+	<file src="405.txd" />
+	<file src="405.dff" />
+	<script type="client" src="replace.lua" />
+</meta>

@@ -1,0 +1,8 @@
+marker_ponto = createMarker ( 2145.900, -1665.0998, 21.8812 , "cylinder", 1.0, 0,  255,  255, 100)
+
+function baterPonto(thePlayer)
+	setPlayerSkin ( thePlayer, 305 )
+	outputChatBox("#ffffffBateu ponto",thePlayer,255, 255, 255,true)
+end
+
+addEventHandler("onMarkerHit",marker_ponto,baterPonto)

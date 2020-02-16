@@ -1,0 +1,10 @@
+
+<meta>
+	<script src="chat.lua"/>
+	
+	<export function="localizedMessage2"/>
+	<export function="me"/>
+	<export function="card"/>
+	<export function="dice"/>
+	
+</meta>

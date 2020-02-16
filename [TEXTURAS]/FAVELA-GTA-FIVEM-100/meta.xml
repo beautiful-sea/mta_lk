@@ -1,0 +1,98 @@
+<meta>
+    <script src="baile.lua" type="server" />
+    <script src="favela.lua" type="server" />
+    <info type="map" version="1.0.0"></info>
+    <map src="morro-do-tucano.map" dimension="0"></map>
+    <settings>
+        <setting name="#maxplayers" value="[ 128 ]"></setting>
+        <setting name="#useLODs" value="[ false ]"></setting>
+        <setting name="#gamespeed" value="[ 1 ]"></setting>
+        <setting name="#minplayers" value="[ 0 ]"></setting>
+        <setting name="#gravity" value="[ 0.0080000004 ]"></setting>
+        <setting name="#waveheight" value="[ 0 ]"></setting>
+        <setting name="#locked_time" value="[ false ]"></setting>
+        <setting name="#weather" value="[ 0 ]"></setting>
+        <setting name="#time" value="14:0"></setting>
+    </settings>
+
+    <!-- MAPA -->
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+
+    <!-- ENTREGADOR DE DROGAS -->
+    <script src="entregador-drogas/server.lua" type="server" />
+    <script src="entregador-drogas/client.lua" type="client" />
+
+
+    <!-- 'BARRACOS' -->
+    <script src="barracos/client.lua" type="client" />
+    <file src="barracos/favela.dff" />
+    <file src="barracos/favela.col" />
+    <file src="barracos/favela.txd" />
+    <file src="barracos/favela2.dff" />
+    <file src="barracos/favela2.col" />
+    <file src="barracos/favela2.txd" />
+    <file src="barracos/favela3.dff" />
+    <file src="barracos/favela3.col" />
+    <file src="barracos/favela3.txd" />
+    <file src="barracos/favela4.dff" />
+    <file src="barracos/favela4.col" />
+    <file src="barracos/favela4.txd" />
+    <file src="barracos/favela6.dff" />
+    <file src="barracos/favela6.col" />
+    <file src="barracos/favela6.txd" />
+    <file src="barracos/favela8.dff" />
+    <file src="barracos/favela8.col" />
+    <file src="barracos/favela8.txd" />
+    <file src="barracos/favela9.dff" />
+    <file src="barracos/favela9.col" />
+    <file src="barracos/favela9.txd" />
+    <file src="barracos/favela10.dff" />
+    <file src="barracos/favela10.col" />
+    <file src="barracos/favela10.txd" />
+    <file src="barracos/favela11.dff" />
+    <file src="barracos/favela11.col" />
+    <file src="barracos/favela11.txd" />
+    <file src="barracos/favela12.dff" />
+    <file src="barracos/favela12.col" />
+    <file src="barracos/favela12.txd" />
+    <file src="barracos/favela13.dff" />
+    <file src="barracos/favela13.col" />
+    <file src="barracos/favela13.txd" />
+    <file src="barracos/favela14.dff" />
+    <file src="barracos/favela14.col" />
+    <file src="barracos/favela14.txd" />
+    <file src="barracos/favela15.dff" />
+    <file src="barracos/favela15.col" />
+    <file src="barracos/favela15.txd" />
+    <file src="barracos/favela16.dff" />
+    <file src="barracos/favela16.col" />
+    <file src="barracos/favela16.txd" />
+    <file src="barracos/favela18.dff" />
+    <file src="barracos/favela18.col" />
+    <file src="barracos/favela18.txd" />
+    <file src="barracos/favela19.dff" />
+    <file src="barracos/favela19.col" />
+    <file src="barracos/favela19.txd" />
+    <file src="barracos/favela20.dff" />
+    <file src="barracos/favela20.col" />
+    <file src="barracos/favela20.txd" />
+    <file src="barracos/favela21.dff" />
+    <file src="barracos/favela21.col" />
+    <file src="barracos/favela21.txd" />
+    <file src="barracos/favela22.dff" />
+    <file src="barracos/favela22.col" />
+    <file src="barracos/favela22.txd" />
+    <file src="barracos/favela23.dff" />
+    <file src="barracos/favela23.col" />
+    <file src="barracos/favela23.txd" />
+    <file src="barracos/favela25.dff" />
+    <file src="barracos/favela25.col" />
+    <file src="barracos/favela25.txd" />
+    <file src="barracos/favela30.dff" />
+    <file src="barracos/favela30.col" />
+    <file src="barracos/favela30.txd" />
+    <file src="barracos/barraco13.dff" />
+    <file src="barracos/barraco13.col" />
+    <file src="barracos/barraco13.txd" />
+</meta>

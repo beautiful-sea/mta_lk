@@ -1,0 +1,6 @@
+<meta>
+	<info type="misc" name="Car replacement for: Buffalo" author="ExReggaeTM" description="" version="1" />
+	<file src="529.txd" />
+	<file src="529.dff" />
+	<script type="client" src="replace.lua" />
+</meta>

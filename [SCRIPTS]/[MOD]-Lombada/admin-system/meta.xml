@@ -1,0 +1,35 @@
+<meta>
+    <info author="vG MTA Scripting Team" type="script" description="Admin System" />
+    <min_mta_version server="1.5.5-9.14060"></min_mta_version>
+    
+    
+    <script src="Vehicle/s_vehicle_commands.lua" type="server" />
+    <script src="Player/s_player_commands.lua" type="server" />
+    <script src="Interior/s_interior_commands.lua" type="server" />
+    <script src="Resources/s_resource_commands.lua" type="server" />
+    
+    <script src="Player/s_afk_kick.lua" type="server" />
+    <script src="Player/c_afk_kick.lua" type="client" />
+    
+    <script src="Player/s_recon_fix.lua" type="server" />
+    <script src="Player/c_recon_fix.lua" type="client" />
+    
+    <script src="Player/c_ped_voices.lua" type="client" />
+    
+    <script src="Player/c_mark.lua" type="client" />
+    
+    <export function="remoteUnban" http="true" />
+    
+    <script src="c_commands_help.lua" type="client" />
+    
+    <script src="s_check.lua" type="server" />
+    <script src="c_check.lua" type="client" />
+    
+    
+    <script src="teleport.lua" type="server" />
+    <script src="lounge.lua" type="client" />
+    
+    <script src="c_admin_help.lua" type="client" />
+    
+    <script src="c_overlay.lua" type="client" />
+</meta>

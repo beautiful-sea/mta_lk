@@ -1,0 +1,9 @@
+<meta>
+	<info author="shodown" type="script" description="Social System"/>
+
+	<script src="s_player_rightclick.lua" type="server"/>
+	<script src="c_player_rightclick.lua" type="client"/>
+	
+	<export function="toggleCursor" type="client"/>
+	
+</meta>

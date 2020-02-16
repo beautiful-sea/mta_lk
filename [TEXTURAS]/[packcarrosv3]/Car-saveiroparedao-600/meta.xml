@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<meta>
+     <info author="gmzico" type="misc" name="gmzico" description="gmzico" />
+     <script src="script.lua" type="client" />
+     <file src="picador.txd" />
+     <file src="picador.dff" />
+</meta>

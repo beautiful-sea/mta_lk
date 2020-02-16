@@ -1,0 +1,5 @@
+<meta>
+	<script src="server.lua" />
+	<script src="client.lua" type="client" />
+	<export function="loadcj" type="server"/>
+</meta>
